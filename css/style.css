@@ -1,0 +1,428 @@
+/*-- Whizlab --*/
+
+/*
+color: #3e4651;
+color: #009acb;
+*/
+
+html,
+body {
+    height: 100%;
+    font-size: 18px;
+    font-family: 'Cubano-Regular', 'Cubano-RegularIE';
+    margin: 0 auto;
+    background: url(../img/pattern.jpg) center center;
+    color: #3e4651;
+
+
+    font-weight: 400;
+    line-height: 1.5;
+
+    text-align: left;
+
+}
+
+
+.block {
+    content: "";
+    display: block;
+}
+
+/* FONT FACES */
+
+@font-face {
+    font-family: 'Cubano-Regular';
+    src: local('Cubano-Regular.otf'), url('Cubano-Regular.otf') format('opentype');
+
+}
+
+@font-face {
+    font-family: 'Cubano-RegularIE';
+    src: local('cubano-regular-webfont.eot'), url('cubano-regular-webfont.eot?#iefix') format('embedded-opentype');
+
+}
+
+
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: local('Nunito-Regular.ttf'), url('Nunito-Regular.ttf') format('truetype');
+}
+
+
+/* SECTION COVER */
+
+#cover {
+    height: 90%;
+    background: url(../img/bg1.jpg) center;
+    background-size: cover;
+    color: white;
+
+}
+
+.brand {
+
+    color: #009acb;
+    background-color: white;
+    padding: 1px 5px;
+    font-size: 1.7rem;
+    cursor: default;
+
+}
+
+.fa-registered{
+    
+    font-size: .5rem;
+}
+
+.brand.color1 {
+
+    color: #009acb;
+}
+
+.brandYW {
+    color: #009acb;
+    cursor: default;
+    width: 132px;
+}
+
+
+
+.tag-line {
+    font-size: 1rem;
+    color: #009acb;
+}
+
+
+hr {
+    border-top: 3px dotted #eee;
+
+
+
+
+}
+
+
+.navbar-nav {
+
+    margin: auto;
+
+}
+
+.navbar-nav .nav-item .nav-link {
+
+    padding-left: 2.5rem;
+    transition: .3s;
+    color: #009acb;
+    font-size: 1.1rem;
+}
+
+.navbar-nav .nav-item a:hover {
+    transition: .4s;
+    color: #009acb
+}
+
+.navbar-nav .nav-item a:active {
+
+    transition: .4s;
+
+}
+
+
+/* -- Section : ItsMe -- */
+
+#itsMe {
+    padding-top: 5rem;
+
+}
+
+.section-itsMe {
+
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+
+}
+
+.section-itsMe p {
+
+    text-align: center;
+
+
+
+}
+
+.stand-out {
+
+    color: darkgoldenrod;
+}
+
+.stand-out2 a {
+
+    color: darkgoldenrod;
+    transition: .3s;
+
+}
+
+.stand-out2 a:hover {
+    color: darkorange;
+    transition: .3s;
+    text-decoration: none;
+}
+
+h2,
+p {
+
+    text-align: center;
+}
+
+.itsMeContent {
+
+    padding: 5rem 0 5rem 0;
+    background-color: white;
+
+}
+
+.itsMeContent p:first-child {
+    padding-top: 3rem;
+    text-align: justify;
+}
+
+
+.itsMeContent p {
+    text-align: justify;
+}
+
+.itsMeContent .content-img {
+
+    text-align: right;
+
+}
+
+.imgClass {
+    width: 60%;
+    text-align: center;
+    border-radius: 20px;
+
+
+}
+
+
+
+/* -- Section - My lab -- */
+
+.section-myLab {
+
+    padding-top: 5rem;
+
+
+
+
+}
+
+.section-myLab p {}
+
+.myLab {
+
+    background-color: white;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.myLab p {
+
+
+    text-align: justify;
+}
+
+.myLab li {
+
+    list-style: none;
+}
+
+
+/* Section - Skills */
+
+#proskills {
+
+    padding-top: 5rem;
+}
+
+
+.skills-Percentage {
+
+    width: 80%;
+    text-align: center;
+
+}
+
+.skillContent {
+
+    background-color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+.skillContent p {
+    padding-top: 3rem;
+    text-align: justify;
+}
+
+/* Section - Passion */
+
+#passion {
+
+    padding-top: 5rem;
+}
+
+.passionContent {
+    background-color: white;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    text-align: justify;
+}
+
+.custom-alink:hover {
+
+    text-decoration: none;
+}
+
+
+/* Section : Contact */
+
+#contact {
+    padding-top: 10rem;
+
+}
+
+.contactContent {
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    text-align: justify;
+    font-size: 1.2rem;
+
+}
+
+/* Section : Footer */
+
+.tag-line2 {
+
+    color: beige;
+    font-size: 1.3rem;
+    padding-top: 2rem;
+
+}
+
+#footer {
+
+    padding-top: 2rem;
+
+    color: white;
+    background-color: darkslategrey;
+}
+
+.copy {
+    font-size: 15px;
+    padding-top: 4rem;
+}
+
+.socialIcons {
+    padding-top:
+}
+
+
+.fbIcon,
+.instaIcon,
+.twitterIcon {
+
+    color: White;
+    transition: .3s;
+}
+
+
+
+.fbIcon:hover {
+    color: #3b5998;
+    transition: .3s;
+}
+
+.instaIcon:hover {
+    color: #4c68d7;
+    transition: .3s;
+}
+
+.twitterIcon:hover {
+    color: #55acee;
+    transition: .3s;
+}
+
+
+.fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: 100;
+}
+
+.fa-arrow-circle-up {
+
+    color: white;
+    float: right;
+}
+
+
+/*
+@media only screen and (min-width: 412px) {
+	
+    #myLab,
+    #proskills,
+    #passion,
+    #contact{
+    padding-top: 20rem;
+}
+    
+   
+}*/
+
+@media only screen and (max-width: 350px) {
+
+    .stand-out {
+
+        font-size: 1rem;
+    }
+    .tag-line {
+
+        font-size: .7rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 960px) {
+
+    .itsMeContent .content-img {
+
+        text-align: center;
+
+    }
+
+
+}
+
+.navbar-fixed-top {
+    top: -70px;
+    /* you'll have to figure out the exact number here */
+}
+
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+    position: relative;
+    /* this can also be static */
+}
+
+.fa-heart {
+
+    color: red;
+}
